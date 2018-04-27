@@ -1,0 +1,23 @@
+{
+    "name": "zxq/test",
+    "description": "this is test",
+    "type": "project",
+    "license": "apache",
+    "authors": [
+        {
+            "name": "zhao xianqiang",
+            "email": "zhao@trans-cosmos.com.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/console": "^4.1@dev",
+        "psr/log": "^1.0@dev",
+        "monolog/monolog": "^2.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
